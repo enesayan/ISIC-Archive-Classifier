@@ -36,8 +36,8 @@ def sparse_benign_malignant():
 
       except Exception as e:
           unknowns.append(f)
-          print "hata",e
-          print "Hatali dosya=",f
+          print "Error:",e
+          print "Error File Name:",f
    print len(benigns)
    print len(malignants)
    print len(unknowns)
