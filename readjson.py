@@ -35,7 +35,6 @@ def sparse_benign_malignant():
            malignants.append(f)
 
       except Exception as e:
-          #unknowns.append("unknown")
           unknowns.append(f)
           print "hata",e
           print "Hatali dosya=",f
