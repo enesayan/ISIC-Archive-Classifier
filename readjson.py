@@ -30,10 +30,8 @@ def sparse_benign_malignant():
       try:
         data=pd.read_json(f)
         if data["meta"]["clinical"]["benign_malignant"]=="benign":
-           #benigns.append(data["meta"]["clinical"]["benign_malignant"])
            benigns.append(f)
         else:
-           #malignants.append(data["meta"]["clinical"]["benign_malignant"])
            malignants.append(f)
 
       except Exception as e:
